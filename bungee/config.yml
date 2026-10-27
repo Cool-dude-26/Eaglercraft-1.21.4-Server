@@ -7,7 +7,7 @@ groups:
 servers:
   lobby:
     motd: '&1Just another BungeeCord - Forced Host'
-    address: localhost:25565
+    address: 192.200.119.234:10218
     restricted: false
 remote_ping_cache: -1
 connection_throttle_limit: 3
@@ -17,14 +17,14 @@ listeners:
   motd: '&1Another Bungee server'
   tab_list: GLOBAL_PING
   query_enabled: false
-  proxy_protocol: false
+  proxy_protocol: true
   forced_hosts:
     pvp.md-5.net: pvp
   ping_passthrough: false
   priorities:
   - lobby
   bind_local_address: true
-  host: 0.0.0.0:25577
+  host: 0.0.0.0:10000
   max_players: 100
   tab_size: 60
   force_default_server: false
@@ -38,7 +38,7 @@ log_pings: true
 max_packets_data_per_second: 33554432
 forge_support: false
 log_commands: false
-stats: 462d1041-fbf4-4c3b-83c2-fc009849dccd
+stats: 52d1c7fa-dc53-4c76-bb8f-30bd22538b3e
 reject_transfers: false
 network_compression_threshold: 256
 permissions:
